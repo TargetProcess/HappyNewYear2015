@@ -1,0 +1,49 @@
+.ny2015-content {
+    background: #fff;
+    padding: 0;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.ny2015-close {
+    opacity: 0.8;
+    cursor: pointer;
+    left: -56px;
+    padding: 25px 17px;
+    position: absolute;
+}
+.ny2015-close:hover {
+    opacity: 1;
+}
+.ny2015-close i {
+    display: inline-block;
+    height: 27px;
+    width: 22px;
+    color: white;
+    z-index: 1000;
+    background: url('../../tau/css.board/images/icons-general.svg') no-repeat -1566px -100px;
+}
+.ny2015-trigger {
+    background: url('balls.png') no-repeat 0 0;
+    width: 15px;
+}
+.ny2015-trigger:hover {
+    background-position: -15px 0;
+}
+.ny2015-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(33, 33, 33, 0.8);
+    display: flex;
+    justify-content: center;
+}
+.ny2015-wrapper {
+    position: relative;
+    display: flex;
+}
