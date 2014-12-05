@@ -71,7 +71,7 @@ tau
                         }
                     });
 
-                    $template.on('click', '.ny-close', function() {
+                    $template.on('click', '.ny2005-close', function() {
                         setStatus('hide');
                         snowFall.snow($template.toArray(), 'clear');
                         $(document).find('.snowfall-flakes').remove();
