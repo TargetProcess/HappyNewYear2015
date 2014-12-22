@@ -64,3 +64,19 @@
     display: -ms-flexbox;
     display: flex;
 }
+
+.ny2015__button {
+    background: rgb(237, 194, 0);
+    border-radius: 35px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ny2015__button,
+.ny2015__button:visited {
+    color: #000;
+}
